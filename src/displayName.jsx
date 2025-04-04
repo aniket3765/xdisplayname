@@ -31,7 +31,7 @@ export default function DisplayName() {
           onChange={(e) => setLastName(e.target.value)}
           required
         /></div>
-        <button type="submit" disabled={!firstName || !lastName}>
+        <button type="submit" >
           Submit
         </button>
       </form>
